@@ -1,0 +1,10 @@
+** Drc report for /home/ndholmes/data/projects/ckt-axle/kicad/ckt-axle/ckt-axle.kicad_pcb **
+** Created on 2024-08-26 14:17:35 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
