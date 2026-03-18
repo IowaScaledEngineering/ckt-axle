@@ -23,21 +23,21 @@ LICENSE:
 #define   PINB     11
 #define   SWITCH   A5
 
-/*
 //  Timing in ms (25 MPH HO)
 #define   WHEEL       49
 #define   TRUCK      148
 #define   BOLSTER   1285
 #define   COUPLER    396
 #define   DELAY      198
-*/
 
+/*
 //  Timing in ms (120 MPH HO)
 #define   WHEEL       10
 #define   TRUCK       31
 #define   BOLSTER    268
 #define   COUPLER     82
 #define   DELAY       41
+*/
 
 uint8_t buttonsPressed = 0;
 
