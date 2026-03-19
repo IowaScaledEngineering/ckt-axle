@@ -3877,7 +3877,7 @@
 			(net 1 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "a903f65b-9dde-49c3-ad2b-ef7aa83e166f")
+			(uuid "5c551d52-89c3-4320-84d6-105c51fdae50")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
@@ -5285,7 +5285,7 @@
 			(net 1 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "35cad38f-f934-4889-bdea-addec17d5bfd")
+			(uuid "1eda26b2-708f-42cf-8fee-51b43a19c75b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
@@ -6723,8 +6723,9 @@
 		)
 		(fp_text user "*"
 			(at -1.1176 -3.3636 0)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "25187cbd-b221-4af8-bfae-b85430e24f26")
+			(uuid "0be6997b-4a07-41de-93c4-b83bf3e61b46")
 			(effects
 				(font
 					(size 1 1)
@@ -6734,7 +6735,6 @@
 		)
 		(fp_text user "*"
 			(at -1.1176 -3.3636 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "25187cbd-b221-4af8-bfae-b85430e24f26")
 			(effects
@@ -7649,6 +7649,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A  B  C  D  E"
+		(at 141.91 71.298 0)
+		(layer "F.SilkS")
+		(uuid "fc58d4da-bdeb-4b93-b56c-6060a050dfe1")
+		(effects
+			(font
+				(size 1.524 1.016)
+				(thickness 0.1524)
 			)
 			(justify left bottom)
 		)
