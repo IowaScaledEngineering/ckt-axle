@@ -49,8 +49,8 @@ void setup()
 {
 	digitalWrite(PINA, 0);
 	digitalWrite(PINB, 0);
-	pinMode(PINA, INPUT);
-	pinMode(PINB, INPUT);
+	pinMode(PINA, OUTPUT);
+	pinMode(PINB, OUTPUT);
 	pinMode(SWITCH, INPUT_PULLUP);
 	
 	delay(100);
@@ -84,11 +84,11 @@ void setPin(uint8_t pin, bool active)
 {
 	if(active)
 	{
-		pinMode(pin, OUTPUT);
+		digitalWrite(pin, 1);
 	}
 	else
 	{
-		pinMode(pin, INPUT);
+		digitalWrite(pin, 0);
 	}
 }
 
@@ -193,9 +193,9 @@ void loop()
 			{
 				// First byte, pull off bit and drive PINB
 				if(shifter[i] & 0x01)
-					setPin(PINB, false);
-				else
 					setPin(PINB, true);
+				else
+					setPin(PINB, false);
 			}
 			
 			shifter[i] = shifter[i] >> 1;
