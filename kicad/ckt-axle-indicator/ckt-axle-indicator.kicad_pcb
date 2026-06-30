@@ -2656,6 +2656,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "CKT-AXLE-INDICATOR  v1.0\n©2026 CC BY-SA"
+		(at 152.4 122.428 0)
+		(layer "B.SilkS")
+		(uuid "d2de7f08-35b6-43c0-b6e0-cd07f64ef69e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(segment
 		(start 161.29 113.662)
 		(end 161.29 108.8655)
