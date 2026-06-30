@@ -190,7 +190,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/a07b2002-268a-4486-8d53-5e0956cffd63")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -291,7 +291,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/951e7721-2e2e-4aa9-9bc0-eeb73182ea52")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.11 0.715)
@@ -713,7 +713,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/1bfe78e9-95d3-4206-9568-b20f3e87b4d3")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.285 1.135)
@@ -906,7 +906,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d57223ff-cec8-486b-81ce-3a7b20845ff9")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.285 1.135)
@@ -1098,7 +1098,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d13f41b7-3ea1-4a1b-8dd0-71bee6b2af2e")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1239,7 +1239,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/480c4e3e-48ee-4123-a567-fd7d65374ca7")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.11 -1.785)
@@ -1660,7 +1660,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6f74a794-12a0-4b62-a094-41cf61c9a74f")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1801,7 +1801,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/b9086bc6-f594-4bed-870a-3805d2b7840b")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.11 -1.785)
@@ -2222,7 +2222,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/e14ae141-8ff5-42ae-a2e0-2a417f14feff")
 		(sheetname "/")
-		(sheetfile "ckt-axle'indicator.kicad_sch")
+		(sheetfile "ckt-axle-indicator.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.11 0.715)
