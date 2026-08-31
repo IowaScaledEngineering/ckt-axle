@@ -1,0 +1,3 @@
+#!/bin/bash
+
+kikit panelize -p ckt-axle-bar-array.json ckt-axle-bar.kicad_pcb ckt-axle-bar-array.kicad_pcb
