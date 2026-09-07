@@ -20,7 +20,7 @@ verify:
 
 upload:
 	$(ARDUINO) compile -v -b $(BOARD) $(BASE_NAME).ino
-	$(ARDUINO) upload -v -b $(BOARD) -p /dev/ttyUSB1 $(BASE_NAME).ino
+	$(ARDUINO) upload -v -b $(BOARD) -p /dev/ttyUSB0 $(BASE_NAME).ino
 
 terminal:
-	miniterm.py --filter=direct /dev/ttyUSB1 115200
+	miniterm.py --filter=direct /dev/ttyUSB0 115200

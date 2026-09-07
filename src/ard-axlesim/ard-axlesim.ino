@@ -30,6 +30,12 @@ LICENSE:
 #define   COUPLER    396
 #define   DELAY      198
 
+#define   GPIO_A     7
+#define   GPIO_B     6
+#define   GPIO_C     5
+#define   GPIO_D     4
+#define   GPIO_E     3
+
 /*
 //  Timing in ms (120 MPH HO)
 #define   WHEEL       10
@@ -52,6 +58,12 @@ void setup()
 	pinMode(PINA, OUTPUT);
 	pinMode(PINB, OUTPUT);
 	pinMode(SWITCH, INPUT_PULLUP);
+
+	pinMode(GPIO_A, INPUT_PULLUP);
+	pinMode(GPIO_B, INPUT_PULLUP);
+	pinMode(GPIO_C, INPUT_PULLUP);
+	pinMode(GPIO_D, INPUT_PULLUP);
+	pinMode(GPIO_E, INPUT_PULLUP);
 	
 	delay(100);
 	buttonsPressed = !digitalRead(SWITCH);  // pre load
